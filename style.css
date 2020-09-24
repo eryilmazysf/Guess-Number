@@ -1,0 +1,38 @@
+    body {
+        background-image: url(./img/number.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    
+    h1 {
+        text-align: center;
+        margin: 2rem;
+    }
+    
+    .control {
+        text-align: center;
+    }
+    
+    #number {
+        outline: none;
+        width: 5rem;
+        height: 1.25rem;
+    }
+    
+    #button {
+        font-size: medium;
+        outline: none;
+    }
+    
+    #button:hover {
+        font-size: large;
+        background-color: tomato;
+    }
+    
+    #result {
+        text-align: center;
+        text-transform: uppercase;
+    }
